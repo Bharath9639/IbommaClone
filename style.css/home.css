@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background: #282828;
+    overflow-x: hidden;
+}
+nav{
+    background: #2c2e30;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    height: 85px;
+    padding: 0 100px;
+    z-index: 1;
+    
+}
+nav .logo{
+    cursor: pointer;
+    margin-right: 25px;
+    margin-left: -25px;
+}
+nav .nav-items{
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 70px;
+    margin-left: 330px;
+}
+.nav-items a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 20px;
+}
+.nav-items a i{
+    color: yellow;
+    padding: 3px;
+}
+form{
+    display: flex;
+    height: 35px;
+    padding: 1px;
+    background: #1e232b;
+    min-width: 18% !important;
+    border-radius: 30px;
+    border: 1px solid rgba(155, 155, 155, 0.2);
+    margin-right: -35px;
+    
+}
+.search-data{
+    width: 90%;
+    height: 90%;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    font-weight: 500;
+    background: none;
+    margin-left: 10px;
+}
+button{
+    padding: 0 15px;
+    color: black;
+    font-size: 17px;
+    background: yellow;
+    border: none;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    cursor: pointer;    
+}
+button:hover{
+      background: rgba(255, 255, 0, 0.79);
+}
+.content{
+    margin-top: 7%;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+.content h1{
+  
+    justify-content: space-between;
+    letter-spacing: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+.content p{
+    margin-top: 30px;
+    word-spacing: 2px;
+    
+}
+.movie-items{
+    width: 100%;
+    height: 10%;
+    margin-top: 30px;
+    margin-left: 1.5rem;
+    padding: 20px;
+}
+.column{
+    float: left;
+    width: 15%;
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-bottom: 3%;
+}
+.column h4{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    margin-top: 2%;
+
+    
+}
+.column p{
+    color: yellow;
+    border: 1px solid rgba(85, 83, 83, 0.032);
+    background-color: #7275752b;
+    border-radius: 5px;
+    width:32px;
+    font-size: smaller;
+    margin-top: 2%;
+   
+}
+.column img{
+    width: 100%;
+    border-radius: 5px;
+}
+.row::after{
+    content: '';
+    clear: both;
+    display: table-row;
+}
